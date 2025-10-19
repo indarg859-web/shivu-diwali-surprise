@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Diwali, Shivu! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bgMusic" src="diwali.mp3" autoplay loop></audio>
+
+    <h1>Happy Diwali, Shivu! 🎇</h1>
+    <p>Click on a gift to see your surprise 🎁</p>
+
+    <div class="gift-container">
+        <div class="gift" onclick="openGift(this)">🎁</div>
+        <div class="gift" onclick="openGift(this)">🎁</div>
+        <div class="gift" onclick="openGift(this)">🎁</div>
+        <div class="gift" onclick="openGift(this)">🎁</div>
+        <div class="gift" onclick="openGift(this)">🎁</div>
+    </div>
+
+    <div id="surprise"></div>
+
+    <canvas id="canvas"></canvas>
+    <canvas id="diyaCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
